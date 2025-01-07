@@ -1,0 +1,13 @@
+server:
+    port: 8080
+    ssl:
+        enabled: true
+        key-store: ssl_server.jks
+        key-password: greenlearner
+spring:
+    application:
+        name: my-app
+    profiles:
+        active: dev # Default profile can be set here if desired
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver

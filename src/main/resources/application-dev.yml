@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/mywork
+        username: root
+        password: shubhsinghal
+app:
+    server:
+        name: dev-server
+        detail: Development Environment
